@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build / output
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.cache
+
+# Optional
+*.local
